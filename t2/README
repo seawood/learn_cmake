@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir build
+cd build
+cmake -DCMAKE_INSATLL_PREFIX=/tmp/t2/usr ..  
+make
+make install
